@@ -8,9 +8,6 @@ module.exports = {
     extend: {},
   },
   plugins: [require('@tailwindcss/typography'), require('daisyui')],
-  corePlugins: {
-    preflight: false,
-  },
   daisyui: {
     themes: [
       {
@@ -61,3 +58,4 @@ module.exports = {
     ],
   },
 }
+

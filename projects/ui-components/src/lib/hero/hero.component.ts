@@ -6,7 +6,7 @@ import { Component, Inject, Input } from '@angular/core';
   imports: [],
   providers: [ ],
   templateUrl: './hero.component.html',
-  styleUrl: './hero.component.css'
+  styleUrl: '../../tailwind.scss'
 })
 export class HeroComponent {
   
