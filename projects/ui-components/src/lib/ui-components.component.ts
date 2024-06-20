@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'lib-ui-components',
   standalone: true,
@@ -9,7 +10,7 @@ import { Component } from '@angular/core';
       ui-components works!
     </p>
   `,
-  styles: ``
+  styles: ``,
 })
 export class UiComponentsComponent {
 
