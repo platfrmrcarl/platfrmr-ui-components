@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-drawer',
+  selector: 'uic-drawer',
   standalone: true,
   imports: [],
   templateUrl: './drawer.component.html',

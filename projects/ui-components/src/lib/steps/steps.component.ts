@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-steps',
+  selector: 'uic-steps',
   standalone: true,
   imports: [],
   templateUrl: './steps.component.html',

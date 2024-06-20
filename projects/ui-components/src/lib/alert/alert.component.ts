@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-alert',
+  selector: 'uic-alert',
   standalone: true,
   imports: [],
   templateUrl: './alert.component.html',

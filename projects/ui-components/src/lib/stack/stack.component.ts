@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-stack',
+  selector: 'uic-stack',
   standalone: true,
   imports: [],
   templateUrl: './stack.component.html',

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-table',
+  selector: 'uic-table',
   standalone: true,
   imports: [],
   templateUrl: './table.component.html',

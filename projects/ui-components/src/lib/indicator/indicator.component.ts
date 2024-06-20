@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-indicator',
+  selector: 'uic-indicator',
   standalone: true,
   imports: [],
   templateUrl: './indicator.component.html',

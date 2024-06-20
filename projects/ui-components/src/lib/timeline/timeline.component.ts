@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-timeline',
+  selector: 'uic-timeline',
   standalone: true,
   imports: [],
   templateUrl: './timeline.component.html',

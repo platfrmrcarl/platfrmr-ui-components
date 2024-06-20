@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-fileinput',
+  selector: 'uic-fileinput',
   standalone: true,
   imports: [],
   templateUrl: './fileinput.component.html',

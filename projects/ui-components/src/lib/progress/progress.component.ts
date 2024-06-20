@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-progress',
+  selector: 'uic-progress',
   standalone: true,
   imports: [],
   templateUrl: './progress.component.html',

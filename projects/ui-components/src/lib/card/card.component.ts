@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-card',
+  selector: 'uic-card',
   standalone: true,
   imports: [],
   templateUrl: './card.component.html',

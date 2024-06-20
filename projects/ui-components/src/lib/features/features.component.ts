@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-features',
+  selector: 'uic-features',
   standalone: true,
   imports: [],
   templateUrl: './features.component.html',

@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'lib-hero',
+  selector: 'uic-hero',
   standalone: true,
   imports: [],
   templateUrl: './hero.component.html',

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-navbar',
+  selector: 'uic-navbar',
   standalone: true,
   imports: [],
   templateUrl: './navbar.component.html',
