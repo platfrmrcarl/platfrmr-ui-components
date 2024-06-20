@@ -4,3 +4,5 @@ export { HeroComponent } from './lib/hero/hero.component';
 export { HeroModule } from './lib/hero/hero.module';
 export { StatsComponent } from './lib/stats/stats.component';
 export { StatsModule } from './lib/stats/stats.module';
+export { FeaturesComponent } from './lib/features/features.component';
+export { FeaturesModule } from './lib/features/features.module';

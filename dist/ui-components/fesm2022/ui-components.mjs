@@ -147,6 +147,68 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "18.0.3", ngImpor
                 }]
         }] });
 
+class FeaturesComponent {
+    constructor() {
+        this.title = '';
+        this.subtitle = '';
+        this.description = '';
+        this.feature_1_title = '';
+        this.feature_1_description = '';
+        this.feature_2_title = '';
+        this.feature_2_description = '';
+        this.feature_3_title = '';
+        this.feature_3_description = '';
+        this.feature_4_title = '';
+        this.feature_4_description = '';
+    }
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "18.0.3", ngImport: i0, type: FeaturesComponent, deps: [], target: i0.ɵɵFactoryTarget.Component }); }
+    static { this.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "18.0.3", type: FeaturesComponent, isStandalone: true, selector: "uic-features", inputs: { title: "title", subtitle: "subtitle", description: "description", feature_1_title: "feature_1_title", feature_1_description: "feature_1_description", feature_2_title: "feature_2_title", feature_2_description: "feature_2_description", feature_3_title: "feature_3_title", feature_3_description: "feature_3_description", feature_4_title: "feature_4_title", feature_4_description: "feature_4_description" }, ngImport: i0, template: "<div class=\"bg-white py-24 sm:py-32\">\n    <div class=\"mx-auto max-w-7xl px-6 lg:px-8\">\n      <div class=\"mx-auto max-w-2xl lg:text-center\">\n        <h2 class=\"text-base font-semibold leading-7 text-neutral\">{{subtitle}}</h2>\n        <p class=\"mt-2 text-3xl font-bold tracking-tight text-primary sm:text-4xl\">{{title}}</p>\n        <p class=\"mt-6 text-lg leading-8 text-gray-600\">{{description}}</p>\n      </div>\n      <div class=\"mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl\">\n        <dl class=\"grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16\">\n          <div class=\"relative pl-16\">\n            <dt class=\"text-base font-semibold leading-7 text-gray-900\">\n              <div class=\"absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-primary\">\n                <svg class=\"h-6 w-6 text-white\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\">\n                  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z\" />\n                </svg>\n              </div>\n             {{feature_1_title}}\n            </dt>\n            <dd class=\"mt-2 text-base leading-7 text-gray-600\">{{feature_1_description}}</dd>\n          </div>\n          <div class=\"relative pl-16\">\n            <dt class=\"text-base font-semibold leading-7 text-gray-900\">\n              <div class=\"absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-primary\">\n                <svg class=\"h-6 w-6 text-white\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\">\n                  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z\" />\n                </svg>\n              </div>\n              {{feature_2_title}}\n            </dt>\n            <dd class=\"mt-2 text-base leading-7 text-gray-600\">{{feature_2_description}}</dd>\n          </div>\n          <div class=\"relative pl-16\">\n            <dt class=\"text-base font-semibold leading-7 text-gray-900\">\n              <div class=\"absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-primary\">\n                <svg class=\"h-6 w-6 text-white\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\">\n                  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99\" />\n                </svg>\n              </div>\n              {{feature_3_title}}\n            </dt>\n            <dd class=\"mt-2 text-base leading-7 text-gray-600\">{{feature_3_description}}</dd>\n          </div>\n          <div class=\"relative pl-16\">\n            <dt class=\"text-base font-semibold leading-7 text-gray-900\">\n              <div class=\"absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-primary\">\n                <svg class=\"h-6 w-6 text-white\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\">\n                  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M7.864 4.243A7.5 7.5 0 0119.5 10.5c0 2.92-.556 5.709-1.568 8.268M5.742 6.364A7.465 7.465 0 004.5 10.5a7.464 7.464 0 01-1.15 3.993m1.989 3.559A11.209 11.209 0 008.25 10.5a3.75 3.75 0 117.5 0c0 .527-.021 1.049-.064 1.565M12 10.5a14.94 14.94 0 01-3.6 9.75m6.633-4.596a18.666 18.666 0 01-2.485 5.33\" />\n                </svg>\n              </div>\n              {{feature_4_title}}\n            </dt>\n            <dd class=\"mt-2 text-base leading-7 text-gray-600\">{{feature_4_description}}</dd>\n          </div>\n        </dl>\n      </div>\n    </div>\n  </div>", styles: [""] }); }
+}
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "18.0.3", ngImport: i0, type: FeaturesComponent, decorators: [{
+            type: Component,
+            args: [{ selector: 'uic-features', standalone: true, imports: [], template: "<div class=\"bg-white py-24 sm:py-32\">\n    <div class=\"mx-auto max-w-7xl px-6 lg:px-8\">\n      <div class=\"mx-auto max-w-2xl lg:text-center\">\n        <h2 class=\"text-base font-semibold leading-7 text-neutral\">{{subtitle}}</h2>\n        <p class=\"mt-2 text-3xl font-bold tracking-tight text-primary sm:text-4xl\">{{title}}</p>\n        <p class=\"mt-6 text-lg leading-8 text-gray-600\">{{description}}</p>\n      </div>\n      <div class=\"mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl\">\n        <dl class=\"grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16\">\n          <div class=\"relative pl-16\">\n            <dt class=\"text-base font-semibold leading-7 text-gray-900\">\n              <div class=\"absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-primary\">\n                <svg class=\"h-6 w-6 text-white\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\">\n                  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z\" />\n                </svg>\n              </div>\n             {{feature_1_title}}\n            </dt>\n            <dd class=\"mt-2 text-base leading-7 text-gray-600\">{{feature_1_description}}</dd>\n          </div>\n          <div class=\"relative pl-16\">\n            <dt class=\"text-base font-semibold leading-7 text-gray-900\">\n              <div class=\"absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-primary\">\n                <svg class=\"h-6 w-6 text-white\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\">\n                  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z\" />\n                </svg>\n              </div>\n              {{feature_2_title}}\n            </dt>\n            <dd class=\"mt-2 text-base leading-7 text-gray-600\">{{feature_2_description}}</dd>\n          </div>\n          <div class=\"relative pl-16\">\n            <dt class=\"text-base font-semibold leading-7 text-gray-900\">\n              <div class=\"absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-primary\">\n                <svg class=\"h-6 w-6 text-white\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\">\n                  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99\" />\n                </svg>\n              </div>\n              {{feature_3_title}}\n            </dt>\n            <dd class=\"mt-2 text-base leading-7 text-gray-600\">{{feature_3_description}}</dd>\n          </div>\n          <div class=\"relative pl-16\">\n            <dt class=\"text-base font-semibold leading-7 text-gray-900\">\n              <div class=\"absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-primary\">\n                <svg class=\"h-6 w-6 text-white\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\">\n                  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M7.864 4.243A7.5 7.5 0 0119.5 10.5c0 2.92-.556 5.709-1.568 8.268M5.742 6.364A7.465 7.465 0 004.5 10.5a7.464 7.464 0 01-1.15 3.993m1.989 3.559A11.209 11.209 0 008.25 10.5a3.75 3.75 0 117.5 0c0 .527-.021 1.049-.064 1.565M12 10.5a14.94 14.94 0 01-3.6 9.75m6.633-4.596a18.666 18.666 0 01-2.485 5.33\" />\n                </svg>\n              </div>\n              {{feature_4_title}}\n            </dt>\n            <dd class=\"mt-2 text-base leading-7 text-gray-600\">{{feature_4_description}}</dd>\n          </div>\n        </dl>\n      </div>\n    </div>\n  </div>" }]
+        }], propDecorators: { title: [{
+                type: Input
+            }], subtitle: [{
+                type: Input
+            }], description: [{
+                type: Input
+            }], feature_1_title: [{
+                type: Input
+            }], feature_1_description: [{
+                type: Input
+            }], feature_2_title: [{
+                type: Input
+            }], feature_2_description: [{
+                type: Input
+            }], feature_3_title: [{
+                type: Input
+            }], feature_3_description: [{
+                type: Input
+            }], feature_4_title: [{
+                type: Input
+            }], feature_4_description: [{
+                type: Input
+            }] } });
+
+class FeaturesModule {
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "18.0.3", ngImport: i0, type: FeaturesModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule }); }
+    static { this.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "14.0.0", version: "18.0.3", ngImport: i0, type: FeaturesModule, imports: [CommonModule,
+            FeaturesComponent], exports: [FeaturesComponent] }); }
+    static { this.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "18.0.3", ngImport: i0, type: FeaturesModule, imports: [CommonModule] }); }
+}
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "18.0.3", ngImport: i0, type: FeaturesModule, decorators: [{
+            type: NgModule,
+            args: [{
+                    declarations: [],
+                    imports: [
+                        CommonModule,
+                        FeaturesComponent
+                    ],
+                    exports: [FeaturesComponent]
+                }]
+        }] });
+
 /*
  * Public API Surface of ui-components
  */
@@ -155,5 +217,5 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "18.0.3", ngImpor
  * Generated bundle index. Do not edit.
  */
 
-export { HeroComponent, HeroModule, StatsComponent, StatsModule, UiComponentsComponent, UiComponentsService };
+export { FeaturesComponent, FeaturesModule, HeroComponent, HeroModule, StatsComponent, StatsModule, UiComponentsComponent, UiComponentsService };
 //# sourceMappingURL=ui-components.mjs.map
