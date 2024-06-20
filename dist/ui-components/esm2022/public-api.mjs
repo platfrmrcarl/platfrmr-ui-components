@@ -1,0 +1,6 @@
+/*
+ * Public API Surface of ui-components
+ */
+export * from './lib/ui-components.service';
+export * from './lib/ui-components.component';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL3VpLWNvbXBvbmVudHMvc3JjL3B1YmxpYy1hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0dBRUc7QUFFSCxjQUFjLDZCQUE2QixDQUFDO0FBQzVDLGNBQWMsK0JBQStCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIHVpLWNvbXBvbmVudHNcbiAqL1xuXG5leHBvcnQgKiBmcm9tICcuL2xpYi91aS1jb21wb25lbnRzLnNlcnZpY2UnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvdWktY29tcG9uZW50cy5jb21wb25lbnQnO1xuIl19
