@@ -16,4 +16,8 @@ export class HeroComponent {
   @Input() CTAText: string = "";
   @Input() CTA2Link: string = "";
   @Input() CTA2Text: string = "";
+
+  constructor() {}
+
+  ngOnInit(): void {}
 }
