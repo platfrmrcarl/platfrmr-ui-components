@@ -1,6 +1,9 @@
 import * as i0 from '@angular/core';
 import { Injectable, Component, Input, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import * as i1 from '@fortawesome/angular-fontawesome';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { faClock, faMoneyBill, faBolt } from '@fortawesome/free-solid-svg-icons';
 
 class UiComponentsService {
     constructor() { }
@@ -84,6 +87,66 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "18.0.3", ngImpor
                 }]
         }] });
 
+class StatsComponent {
+    constructor() {
+        this.faClock = faClock;
+        this.faMoneyBill = faMoneyBill;
+        this.faBolt = faBolt;
+        this.tile_1_title = "";
+        this.tile_1_value = "";
+        this.tile_1_desc = "";
+        this.tile_2_title = "";
+        this.tile_2_value = "";
+        this.tile_2_desc = "";
+        this.tile_3_title = "";
+        this.tile_3_value = "";
+        this.tile_3_desc = "";
+    }
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "18.0.3", ngImport: i0, type: StatsComponent, deps: [], target: i0.ɵɵFactoryTarget.Component }); }
+    static { this.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "18.0.3", type: StatsComponent, isStandalone: true, selector: "uic-stats", inputs: { tile_1_title: "tile_1_title", tile_1_value: "tile_1_value", tile_1_desc: "tile_1_desc", tile_2_title: "tile_2_title", tile_2_value: "tile_2_value", tile_2_desc: "tile_2_desc", tile_3_title: "tile_3_title", tile_3_value: "tile_3_value", tile_3_desc: "tile_3_desc" }, ngImport: i0, template: "<div class=\"stats w-full shadow bg-white\">\n  \n    <div class=\"stat\">\n      <div class=\"stat-figure text-primary\">\n        <fa-icon class=\"w-8 h-8\" [icon]=\"faClock\"></fa-icon>\n      </div>\n      <div class=\"stat-title text-primary\">{{tile_1_title}}</div>\n      <div class=\"stat-value text-primary\">{{tile_1_value}}</div>\n      <div class=\"stat-desc text-primary\">{{tile_1_desc}}</div>\n    </div>\n    \n    <div class=\"stat text-primary\">\n      <div class=\"stat-figure text-primary\">\n        <fa-icon class=\"w-8 h-8\" [icon]=\"faMoneyBill\"></fa-icon>\n      </div>\n      <div class=\"stat-title text-primary\">{{tile_2_title}}</div>\n      <div class=\"stat-value text-primary\">{{tile_2_value}}</div>\n      <div class=\"stat-desc text-primary\">{{tile_2_desc}}</div>\n    </div>\n    \n    <div class=\"stat text-primary\">\n      <div class=\"stat-figure text-primary\">\n        <fa-icon class=\"w-8 h-8\" [icon]=\"faBolt\"></fa-icon>\n      </div>\n      <div class=\"stat-title text-primary\">{{tile_3_title}}</div>\n      <div class=\"stat-value text-primary\">{{tile_3_value}}</div>\n      <div class=\"stat-desc text-primary\">{{tile_3_desc}}</div>\n    </div>\n    \n  </div>\n", styles: [""], dependencies: [{ kind: "ngmodule", type: FontAwesomeModule }, { kind: "component", type: i1.FaIconComponent, selector: "fa-icon", inputs: ["icon", "title", "animation", "mask", "flip", "size", "pull", "border", "inverse", "symbol", "rotate", "fixedWidth", "transform", "a11yRole"] }] }); }
+}
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "18.0.3", ngImport: i0, type: StatsComponent, decorators: [{
+            type: Component,
+            args: [{ selector: 'uic-stats', standalone: true, imports: [FontAwesomeModule], template: "<div class=\"stats w-full shadow bg-white\">\n  \n    <div class=\"stat\">\n      <div class=\"stat-figure text-primary\">\n        <fa-icon class=\"w-8 h-8\" [icon]=\"faClock\"></fa-icon>\n      </div>\n      <div class=\"stat-title text-primary\">{{tile_1_title}}</div>\n      <div class=\"stat-value text-primary\">{{tile_1_value}}</div>\n      <div class=\"stat-desc text-primary\">{{tile_1_desc}}</div>\n    </div>\n    \n    <div class=\"stat text-primary\">\n      <div class=\"stat-figure text-primary\">\n        <fa-icon class=\"w-8 h-8\" [icon]=\"faMoneyBill\"></fa-icon>\n      </div>\n      <div class=\"stat-title text-primary\">{{tile_2_title}}</div>\n      <div class=\"stat-value text-primary\">{{tile_2_value}}</div>\n      <div class=\"stat-desc text-primary\">{{tile_2_desc}}</div>\n    </div>\n    \n    <div class=\"stat text-primary\">\n      <div class=\"stat-figure text-primary\">\n        <fa-icon class=\"w-8 h-8\" [icon]=\"faBolt\"></fa-icon>\n      </div>\n      <div class=\"stat-title text-primary\">{{tile_3_title}}</div>\n      <div class=\"stat-value text-primary\">{{tile_3_value}}</div>\n      <div class=\"stat-desc text-primary\">{{tile_3_desc}}</div>\n    </div>\n    \n  </div>\n" }]
+        }], propDecorators: { tile_1_title: [{
+                type: Input
+            }], tile_1_value: [{
+                type: Input
+            }], tile_1_desc: [{
+                type: Input
+            }], tile_2_title: [{
+                type: Input
+            }], tile_2_value: [{
+                type: Input
+            }], tile_2_desc: [{
+                type: Input
+            }], tile_3_title: [{
+                type: Input
+            }], tile_3_value: [{
+                type: Input
+            }], tile_3_desc: [{
+                type: Input
+            }] } });
+
+class StatsModule {
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "18.0.3", ngImport: i0, type: StatsModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule }); }
+    static { this.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "14.0.0", version: "18.0.3", ngImport: i0, type: StatsModule, imports: [CommonModule,
+            StatsComponent], exports: [StatsComponent] }); }
+    static { this.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "18.0.3", ngImport: i0, type: StatsModule, imports: [CommonModule,
+            StatsComponent] }); }
+}
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "18.0.3", ngImport: i0, type: StatsModule, decorators: [{
+            type: NgModule,
+            args: [{
+                    declarations: [],
+                    imports: [
+                        CommonModule,
+                        StatsComponent
+                    ],
+                    exports: [StatsComponent]
+                }]
+        }] });
+
 /*
  * Public API Surface of ui-components
  */
@@ -92,5 +155,5 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "18.0.3", ngImpor
  * Generated bundle index. Do not edit.
  */
 
-export { HeroComponent, HeroModule, UiComponentsComponent, UiComponentsService };
+export { HeroComponent, HeroModule, StatsComponent, StatsModule, UiComponentsComponent, UiComponentsService };
 //# sourceMappingURL=ui-components.mjs.map
