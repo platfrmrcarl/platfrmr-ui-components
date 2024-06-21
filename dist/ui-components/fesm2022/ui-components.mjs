@@ -205,7 +205,9 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "18.0.3", ngImpor
                         CommonModule,
                         FeaturesComponent
                     ],
-                    exports: [FeaturesComponent]
+                    exports: [
+                        FeaturesComponent
+                    ]
                 }]
         }] });
 
