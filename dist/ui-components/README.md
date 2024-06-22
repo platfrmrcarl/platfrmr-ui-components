@@ -1,6 +1,6 @@
-# UiComponents
+# @platfrmr/ui-components
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0.
+This library consist of opinionated tailwind components that can be reused in any Angular v18+ project.
 
 ## Install package
 
@@ -12,7 +12,7 @@ Add import to any module or component `import { HeroModule} from '@platfrmr/ui-c
 
 ## Call component selector in template component like the following example
 
-Add `<uic-hero title="Scaffold Your SaaS Platform in Seconds!" description="Using Generative AI to scaffold your SaaS platform in seconds so you can save between 2 weeks and up to 3 months of work on your new SaaS platform venture." secondHeader="If your interested in entering our next workshohp." CTALink="/getstarted" CTAText="Get Started" CTA2Link="/signupworkshop" CTA2Text="Sign Up!"></uic-hero>`
+Add `<uic-hero title="Your title goes here!" description="Your descriptoin goes here!" secondHeader="Second header goes here this is above the title." CTALink="/getstarted" CTAText="Get Started" CTA2Link="/signupworkshop" CTA2Text="Sign Up!"></uic-hero>`
 
 ## Test the app by running ng serve
 
