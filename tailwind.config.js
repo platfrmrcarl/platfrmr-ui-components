@@ -40,5 +40,8 @@ module.exports = {
       "nord",
       "sunset"
     ]
+  },
+  corePlugins: {
+    preflight: false,
   }
 };
