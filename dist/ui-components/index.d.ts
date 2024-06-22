@@ -1,5 +1,5 @@
 /**
  * Generated bundle index. Do not edit.
  */
-/// <amd-module name="@ui-components" />
+/// <amd-module name="@platfrmr/ui-components" />
 export * from './public-api';

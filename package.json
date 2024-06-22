@@ -1,10 +1,10 @@
 {
   "name": "@platfrmr/ui-components",
-  "version": "0.0.0",
+  "version": "0.0.5",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "npx tailwindcss@latest -c projects/ui-components/tailwind.config.js -o projects/ui-components/src/lib/styles/tailwind.scss && ng build --configuration production && npm publish --access=public",
+    "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
