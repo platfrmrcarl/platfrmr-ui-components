@@ -1,12 +1,12 @@
 {
-  "name": "@ui-components",
-  "version": "0.0.1",
+  "name": "@platfrmr/ui-components",
+  "version": "0.0.3",
   "peerDependencies": {
     "@angular/common": "^18.0.0",
     "@angular/core": "^18.0.0"
   },
   "scripts": {
-    "build": "npx tailwindcss@latest -c tailwind.config.js -o ./projects/ui-components/src/lib/styles/tailwind.scss && ng build --conifguration production"
+    "build": "npx tailwindcss@latest -c tailwind.config.js -o src/lib/styles/tailwind.scss && ng build --configuration production && npm publish --access=public"
   },
   "dependencies": {
     "tslib": "^2.3.0"
