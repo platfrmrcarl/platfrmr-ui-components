@@ -2,23 +2,29 @@
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0.
 
-## Code scaffolding
+## Install package
 
-Run `ng generate component component-name --project ui-components` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ui-components`.
-> Note: Don't forget to add `--project ui-components` or else it will be added to the default project in your `angular.json` file. 
+Run `npm i --save @platfrmr/ui-components@latest` to install the package.
 
-## Build
+## Import component module
 
-Run `ng build ui-components` to build the project. The build artifacts will be stored in the `dist/` directory.
+Add import to any module or component `import { HeroModule} from '@platfrmr/ui-components';`
 
-## Publishing
+## Call component selector in template component like the following example
 
-After building your library with `ng build ui-components`, go to the dist folder `cd dist/ui-components` and run `npm publish`.
+Add `<uic-hero title="Scaffold Your SaaS Platform in Seconds!" description="Using Generative AI to scaffold your SaaS platform in seconds so you can save between 2 weeks and up to 3 months of work on your new SaaS platform venture." secondHeader="If your interested in entering our next workshohp." CTALink="/getstarted" CTAText="Get Started" CTA2Link="/signupworkshop" CTA2Text="Sign Up!"></uic-hero>`
 
-## Running unit tests
+## Test the app by running ng serve
 
-Run `ng test ui-components` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `ng serve`.
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+You can contact me on my linkedin https://www.linkedin.com/in/platfrmrcarl/
+twitter shout out to @platfrmrcarl
+IG shout out to @platfrmrcarl
+Threads @platfrmrcarl
+
+We hope this helps you build UI components out quicker with Angular.
+
+Thanks so much!
