@@ -1,12 +1,11 @@
-import { Component,  Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'uic-hero',
   standalone: true,
   imports: [],
-  providers: [ ],
   templateUrl: './hero.component.html',
-  styleUrl: '../../tailwind.scss'
+  styleUrl: './hero.component.css'
 })
 export class HeroComponent {
   
@@ -18,9 +17,4 @@ export class HeroComponent {
   @Input() CTA2Link: string = "";
   @Input() CTA2Text: string = "";
 
-  constructor() {
-    
-  }
-
-  ngOnInit(): void {}
 }

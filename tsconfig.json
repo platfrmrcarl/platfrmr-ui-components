@@ -23,6 +23,9 @@
     "paths": {
       "my-buttons": [
         "./dist/my-buttons"
+      ],
+      "ui-components": [
+        "./dist/ui-components"
       ]
     },
     "lib": [
