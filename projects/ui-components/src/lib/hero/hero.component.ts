@@ -5,13 +5,13 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './hero.component.html',
-  styleUrl: './hero.component.css'
+  styleUrl: '../tailwind.scss'
 })
 export class HeroComponent {
   
   @Input() title: string = "";
   @Input() description: string = "";
-  @Input() secondHeader: string = "";
+  @Input() subHeader: string = "";
   @Input() CTALink: string = "";
   @Input() CTAText: string = "";
   @Input() CTA2Link: string = "";

@@ -1,15 +1,15 @@
 {
   "name": "@platfrmr/ui-components",
-  "version": "0.0.5",
+  "version": "0.0.2",
+  "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --configuration production",
+    "build": "npx tailwindcss@latest -c ./projects/ui-components/tailwind.config.js -o ./projects/ui-components/src/lib/tailwind.scss && ng build --configuration production && cd dist/ui-components && npm publish --access public",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
   "private": false,
-  
   "dependencies": {
     "@angular/animations": "^18.0.0",
     "@angular/common": "^18.0.0",

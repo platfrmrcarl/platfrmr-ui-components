@@ -6,25 +6,36 @@ This library consist of opinionated tailwind components that can be reused in an
 
 Run `npm i --save @platfrmr/ui-components@latest` to install the package.
 
-## Import component module
+## Make sure to add tailwind.config.js
+
+Add `node_modules/@platfrmr/ui-components/lib/**/*` to the tailwind.config.js
+
+## Import Module to any component you want to use it in
 
 Add import to any module or component `import { HeroModule} from '@platfrmr/ui-components';`
 
-## Call component selector in template component like the following example
+## Call component using the template selector inside the component template component like the following example
 
 Add `<uic-hero title="Your title goes here!" description="Your descriptoin goes here!" secondHeader="Second header goes here this is above the title." CTALink="/getstarted" CTAText="Get Started" CTA2Link="/signupworkshop" CTA2Text="Sign Up!"></uic-hero>`
 
-## Test the app by running ng serve
+## Test the component inside the app app by running ng serve
 
 Run `ng serve`.
 
-## Further help
+## For support don't hesitate to contact us on the following links
 
-You can contact me on my linkedin https://www.linkedin.com/in/platfrmrcarl/
-twitter shout out to @platfrmrcarl
-IG shout out to @platfrmrcarl
-Threads @platfrmrcarl
+## Please support us by following us on the following platforms
 
-We hope this helps you build UI components out quicker with Angular.
+- X [@platfrmrcarl](https://www.x.com/platfrmrcarl/)
+- IG [@platfrmrcarl](https://www.instagram.com/platfrmrcarl/)
+- Threads [@platfrmrcarl](https://www.threads.net/@csfinch)
+- Facebook [@platfrmr](https://www.facebook.com/platfrmr)
+- LinkedIn [@platfrmrcarl](https://www.linkedin.com/in/platfrmrcarl/)
+
+## License
+
+MIT
+
+## We hope this helps you build UI components out quicker with Angular.
 
 Thanks so much!
