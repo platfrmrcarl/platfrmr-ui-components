@@ -6,9 +6,15 @@ This library consist of opinionated tailwind components that can be reused in an
 
 Run `npm i --save @platfrmr/ui-components@latest` to install the package.
 
-## Make sure to add tailwind.config.js
+## Make sure to add the library from node_modules to your tailwind.config.js content section
 
-Add `node_modules/@platfrmr/ui-components/lib/**/*` to the tailwind.config.js
+Add <code>
+content: [
+"./src/**/*.{html,ts}",
+"./node_modules/@platfrmr/ui-components/lib/**/*.{html,js,ts}",
+]
+</code>
+to the tailwind.config.js
 
 ## Import Module to any component you want to use it in
 

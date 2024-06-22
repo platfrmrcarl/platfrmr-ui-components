@@ -13452,11 +13452,6 @@ html:has(.drawer-open.drawer-open) {
   }
 }
 
-.hover\:bg-indigo-500:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(99 102 241 / var(--tw-bg-opacity))
-}
-
 .hover\:ring-gray-900\/20:hover {
   --tw-ring-color: rgb(17 24 39 / 0.2)
 }
@@ -13477,10 +13472,6 @@ html:has(.drawer-open.drawer-open) {
 
 .focus-visible\:outline-offset-2:focus-visible {
   outline-offset: 2px
-}
-
-.focus-visible\:outline-indigo-600:focus-visible {
-  outline-color: #4f46e5
 }
 
 @media (min-width: 640px) {
