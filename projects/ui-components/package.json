@@ -1,12 +1,19 @@
 {
   "name": "@platfrmr/ui-components",
-  "version": "0.2.6",
+  "version": "0.4.0",
   "peerDependencies": {
     "@angular/common": "^18.0.0",
     "@angular/core": "^18.0.0"
   },
+  "license": "MIT",
+  "author": "Platfrmr",
+  "homepage": "https://github.com/platfrmr/ui-components",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/platfrmr/ui-components.git"
+  },
   "scripts": {
-    "build": "npx tailwindcss@latest -c tailwind.config.js -o src/lib/styles/tailwind.scss && ng build --configuration production && npm publish --access=public"
+    "build": "npx tailwind -c projects/ui-components/tailwind.config.js -i projects/ui-components/src/lib/styles/tailwind.scss -o dist/ui-components/tailwind.scss && ng build --configuration production && npm publish --access=public"
   },
   "dependencies": {
     "tslib": "^2.3.0"

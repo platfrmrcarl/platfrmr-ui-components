@@ -12,7 +12,7 @@ Add <code>
 content: [
 "./src/**/*.{html,ts}",
 "./node_modules/@platfrmr/ui-components/lib/**/*.{html,js,ts}",
-]
+],
 </code>
 to the tailwind.config.js
 
