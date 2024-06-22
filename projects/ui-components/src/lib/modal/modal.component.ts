@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-modal',
+  selector: 'uic-modal',
   standalone: true,
   imports: [],
   templateUrl: './modal.component.html',

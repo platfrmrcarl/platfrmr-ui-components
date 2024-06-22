@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-select',
+  selector: 'uic-select',
   standalone: true,
   imports: [],
   templateUrl: './select.component.html',

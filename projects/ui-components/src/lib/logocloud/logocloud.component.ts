@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-logocloud',
+  selector: 'uic-logocloud',
   standalone: true,
   imports: [],
   templateUrl: './logocloud.component.html',

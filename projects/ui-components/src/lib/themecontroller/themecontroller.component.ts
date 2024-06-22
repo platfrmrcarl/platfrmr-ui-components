@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-themecontroller',
+  selector: 'uic-themecontroller',
   standalone: true,
   imports: [],
   templateUrl: './themecontroller.component.html',

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-toggle',
+  selector: 'uic-toggle',
   standalone: true,
   imports: [],
   templateUrl: './toggle.component.html',

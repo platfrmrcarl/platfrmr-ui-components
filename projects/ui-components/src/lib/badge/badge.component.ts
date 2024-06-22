@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-badge',
+  selector: 'uic-badge',
   standalone: true,
   imports: [],
   templateUrl: './badge.component.html',

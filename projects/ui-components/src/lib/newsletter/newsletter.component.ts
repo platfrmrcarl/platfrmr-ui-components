@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-newsletter',
+  selector: 'uic-newsletter',
   standalone: true,
   imports: [],
   templateUrl: './newsletter.component.html',

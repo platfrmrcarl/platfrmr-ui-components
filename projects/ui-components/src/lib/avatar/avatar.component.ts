@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-avatar',
+  selector: 'uic-avatar',
   standalone: true,
   imports: [],
   templateUrl: './avatar.component.html',

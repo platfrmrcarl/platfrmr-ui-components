@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-button',
+  selector: 'uic-button',
   standalone: true,
   imports: [],
   templateUrl: './button.component.html',

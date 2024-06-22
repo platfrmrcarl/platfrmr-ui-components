@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-textinput',
+  selector: 'uic-textinput',
   standalone: true,
   imports: [],
   templateUrl: './textinput.component.html',

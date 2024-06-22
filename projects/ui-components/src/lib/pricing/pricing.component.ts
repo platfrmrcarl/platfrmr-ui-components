@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-pricing',
+  selector: 'uic-pricing',
   standalone: true,
   imports: [],
   templateUrl: './pricing.component.html',

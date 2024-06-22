@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-countdown',
+  selector: 'uic-countdown',
   standalone: true,
   imports: [],
   templateUrl: './countdown.component.html',

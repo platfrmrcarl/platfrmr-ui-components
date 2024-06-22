@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-toast',
+  selector: 'uic-toast',
   standalone: true,
   imports: [],
   templateUrl: './toast.component.html',

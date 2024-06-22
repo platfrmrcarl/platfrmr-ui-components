@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-testimonial',
+  selector: 'uic-testimonial',
   standalone: true,
   imports: [],
   templateUrl: './testimonial.component.html',

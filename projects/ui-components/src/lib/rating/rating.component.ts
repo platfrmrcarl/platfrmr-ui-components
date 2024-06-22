@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-rating',
+  selector: 'uic-rating',
   standalone: true,
   imports: [],
   templateUrl: './rating.component.html',
