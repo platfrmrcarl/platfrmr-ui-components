@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'uic-stats',
@@ -8,5 +8,11 @@ import { Component } from '@angular/core';
   styleUrl: './stats.component.css'
 })
 export class StatsComponent {
-
+  @Input()stats_1_title: string = '';
+  @Input()stats_1_value: string = '';
+  @Input()stats_2_title: string = '';
+  @Input()stats_2_value: string = '';
+  @Input()stats_3_title: string = '';
+  @Input()stats_3_value: string = '';
+  
 }
