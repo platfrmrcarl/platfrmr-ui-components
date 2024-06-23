@@ -1,24 +1,36 @@
-# UiComponents
+# @platfrmr/ui-components
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0.
+This library consist of tailwind components that can be reused in any Angular v18+ project.
 
-## Code scaffolding
+## Install package
 
-Run `ng generate component component-name --project ui-components` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ui-components`.
-> Note: Don't forget to add `--project ui-components` or else it will be added to the default project in your `angular.json` file. 
+Run `npm i --save @platfrmr/ui-components@latest` to install the latest package.
 
-## Build
+## Make sure to setup tailwind in angular app
 
-Run `ng build ui-components` to build the project. The build artifacts will be stored in the `dist/` directory.
+Add `content: [ "./src//*.{html,ts}"],` to tailwind.config.js and make sure tailwindcss is installed as a save-dev
 
-## Publishing
+## Import styles to global css file of angular app
 
-After building your library with `ng build ui-components`, go to the dist folder `cd dist/ui-components` and run `npm publish`.
+Add `@import '@platfrmr/ui-components/src/lib/styles.css` inside styles.css file
 
-## Running unit tests
+## Import Module to any component you want to use it in
 
-Run `ng test ui-components` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Add import to any module or component `import { HeroModule} from '@platfrmr/ui-components';`,
 
-## Further help
+## Call component using the selector inside the component
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Add `<uic-hero title="Your title goes here!" description="Your descriptoin goes here!" secondHeader="Second header goes here this is above the title." CTALink="/getstarted" CTAText="Get Started" CTA2Link="/signupworkshop" CTA2Text="Sign Up!"></uic-hero>`
+
+## Test the component inside the app app
+
+Run `ng serve`
+
+## Please support us by following us on the following platforms
+
+- [Twitter](https://twitter.com/platfrmrcarl)
+- [Facebook](https://www.facebook.com/platfrmr)
+- [Instagram](https://www.instagram.com/platfrmrcarl)
+- [Threads](https://www.threads.net/platfrmrcarl)
+- [YouTube](https://www.youtube.com/platfrmr)
+- [LinkedIn](https://www.linkedin.com/in/platfrmrcarl)
