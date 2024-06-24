@@ -1,18 +1,29 @@
-<div class="bg-white py-24 sm:py-32">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <dl class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
-        <div class="mx-auto flex max-w-xs flex-col gap-y-4">
-          <dt class="text-base leading-7 text-gray-600">{{stats_1_title}}</dt>
-          <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">{{stats_1_value}}</dd>
+<div class="bg-base-100 py-24 sm:py-32">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto max-w-2xl lg:max-w-none">
+      <div class="text-center space-y-4">
+        <h2 class="text-3xl font-bold tracking-tight text-neutral sm:text-4xl">{{title}}</h2>
+        <p class="text-lg leading-8 text-neutral">{{description}}
+        </p>
+      </div>
+      <dl class="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
+        <div class="flex flex-col bg-white/5 p-8">
+          <dt class="text-sm font-semibold leading-6 text-neutral">{{stats_1_title}}</dt>
+          <dd class="order-first text-3xl font-semibold tracking-tight text-primary">{{stats_1_value}}</dd>
         </div>
-        <div class="mx-auto flex max-w-xs flex-col gap-y-4">
-          <dt class="text-base leading-7 text-gray-600">{{stats_2_title}}</dt>
-          <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">{{stats_2_value}}</dd>
+        <div class="flex flex-col bg-white/5 p-8">
+          <dt class="text-sm font-semibold leading-6 text-neutral">{{stats_2_title}}</dt>
+          <dd class="order-first text-3xl font-semibold tracking-tight text-primary">{{stats_2_value}}</dd>
         </div>
-        <div class="mx-auto flex max-w-xs flex-col gap-y-4">
-          <dt class="text-base leading-7 text-gray-600">{{stats_3_title}}</dt>
-          <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">{{stats_3_value}}</dd>
+        <div class="flex flex-col bg-white/5 p-8">
+          <dt class="text-sm font-semibold leading-6 text-neutral">{{stats_3_title}}</dt>
+          <dd class="order-first text-3xl font-semibold tracking-tight text-primary">{{stats_3_value}}</dd>
+        </div>
+        <div class="flex flex-col bg-white/5 p-8">
+          <dt class="text-sm font-semibold leading-6 text-neutral">{{stats_4_title}}</dt>
+          <dd class="order-first text-3xl font-semibold tracking-tight text-primary">{{stats_4_value}}</dd>
         </div>
       </dl>
     </div>
   </div>
+</div>

@@ -8,6 +8,19 @@ module.exports = {
   },
   daisyui: {
     themes: [
+      {
+        platfrmr: {
+          "primary": "#43b600",
+          "secondary": "#ff6600",
+          "accent": "#00ffff",
+          "neutral": "#ffffff",
+          "base-100": "#3a3a3a",
+          "info": "#0000ff",
+          "success": "#43b600",
+          "warning": "#ff6600",
+          "error": "#ff0000",
+          },
+      },
       "light",
       "dark",
       "cupcake",

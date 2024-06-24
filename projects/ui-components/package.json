@@ -1,6 +1,6 @@
 {
   "name": "@platfrmr/ui-components",
-  "version": "0.4.8",
+  "version": "0.5.79",
   "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^18.0.0",

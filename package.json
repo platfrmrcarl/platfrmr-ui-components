@@ -6,7 +6,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --configuration production && cd dist/ui-components && npm publish --access public",
+    "build": "cd projects/ui-components && npm version patch && npx tailwindcss -i ./src/input.css -o ./assets/styles.css && cd ../../ && ng build --configuration production && cd dist/ui-components && npm publish --access public",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -20,8 +20,6 @@
     "@angular/platform-browser": "^18.0.0",
     "@angular/platform-browser-dynamic": "^18.0.0",
     "@angular/router": "^18.0.0",
-    "@fortawesome/angular-fontawesome": "^0.15.0",
-    "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
@@ -30,7 +28,6 @@
     "@angular-devkit/build-angular": "^18.0.4",
     "@angular/cli": "^18.0.3",
     "@angular/compiler-cli": "^18.0.0",
-    "@tailwindcss/typography": "^0.5.13",
     "@types/jasmine": "~5.1.0",
     "autoprefixer": "^10.4.19",
     "daisyui": "^4.12.2",
@@ -41,8 +38,6 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "ng-packagr": "^18.0.0",
-    "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.4",
     "typescript": "~5.4.2"
   }
 }

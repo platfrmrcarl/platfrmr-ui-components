@@ -8,11 +8,14 @@ import { Component, Input } from '@angular/core';
   styleUrl: './stats.component.css'
 })
 export class StatsComponent {
+  @Input()title:string = '';
+  @Input()description:string = '';
   @Input()stats_1_title: string = '';
   @Input()stats_1_value: string = '';
   @Input()stats_2_title: string = '';
   @Input()stats_2_value: string = '';
   @Input()stats_3_title: string = '';
   @Input()stats_3_value: string = '';
-  
+  @Input()stats_4_title: string = '';
+  @Input()stats_4_value: string = '';
 }
