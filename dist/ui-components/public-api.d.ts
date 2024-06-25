@@ -16,6 +16,8 @@ export { CheckboxComponent } from './lib/checkbox/checkbox.component';
 export * from './lib/checkbox/checkbox.module';
 export { CountdownComponent } from './lib/countdown/countdown.component';
 export * from './lib/countdown/countdown.module';
+export { EmptystateComponent } from './lib/emptystate/emptystate.component';
+export * from './lib/emptystate/emptystate.module';
 export { FeaturesComponent } from './lib/features/features.component';
 export * from './lib/features/features.module';
 export { FileinputComponent } from './lib/fileinput/fileinput.component';

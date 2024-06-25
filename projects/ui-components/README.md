@@ -9,6 +9,7 @@ This library consist of daisyui tailwind components that can be reused in any An
 - chatbubble
 - checkbox
 - countdown
+- EmptyState
 - features
 - fileinput
 - footer
