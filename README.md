@@ -2,6 +2,26 @@
 
 This library consist of daisyui tailwind components that can be reused in any Angular v18+ project.
 
+## list of ui components
+
+- card
+- carousel
+- chatbubble
+- checkbox
+- countdown
+- drawer
+- features
+- fileinput
+- footer
+- hero
+- indicator
+- inputgroup
+- loading
+- logocloud
+- modal
+- navbar
+- stats
+
 ## Install package
 
 Run `npm i --save @platfrmr/ui-components@latest` to install the latest package.
