@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'uic-logocloud',
@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './logocloud.component.css'
 })
 export class LogocloudComponent {
-
+  @Input() title: string = '';
+  @Input() imgsrc_1: string = '';
+  @Input() imgsrc_2: string = '';
+  @Input() imgsrc_3: string = '';
+  @Input() imgsrc_4: string = '';
+  @Input() imgsrc_5: string = '';
 }

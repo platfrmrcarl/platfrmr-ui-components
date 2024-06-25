@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'uic-footer',
@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-
+  @Input() title: string = '';
+  @Input() description: string = '';
+  @Input() twitter_url: string = '';
+  @Input() youtube_url: string = '';
+  @Input() facebook_url: string = '';
 }

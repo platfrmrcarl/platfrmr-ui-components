@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { Input, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ModalComponent } from './modal.component';
 
@@ -16,4 +16,8 @@ import { ModalComponent } from './modal.component';
     ModalComponent
   ]
 })
-export class ModalModule { }
+export class ModalModule { 
+@Input() title: string = '';
+@Input() message: string = '';
+
+}

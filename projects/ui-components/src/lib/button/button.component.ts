@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'uic-button',
@@ -9,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class ButtonComponent {
 
+    @Input() title: string = '';
 }

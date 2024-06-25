@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import {  NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LogocloudComponent } from './logocloud.component';
 
@@ -13,4 +13,7 @@ import { LogocloudComponent } from './logocloud.component';
   ],
   exports: [LogocloudComponent]
 })
-export class LogocloudModule { }
+export class LogocloudModule {
+
+
+ }

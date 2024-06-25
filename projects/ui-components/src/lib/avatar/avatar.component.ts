@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'uic-avatar',
@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './avatar.component.css'
 })
 export class AvatarComponent {
-
+  
+    constructor(){
+    }
+    
+    @Input() img_src: string = '';
 }

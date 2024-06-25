@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'uic-modal',
@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './modal.component.css'
 })
 export class ModalComponent {
-
+  @Input() btn_title: string = '';
+  @Input() title: string = '';
+  @Input() message: string = '';
 }
