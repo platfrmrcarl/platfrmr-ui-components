@@ -2,7 +2,8 @@
 
 This library consist of daisyui tailwind components that can be reused in any Angular v18+ project.
 
-## list of ui components 
+## list of ui components
+
 - card
 - carousel
 - chatbubble
@@ -20,6 +21,7 @@ This library consist of daisyui tailwind components that can be reused in any An
 - modal
 - navbar
 - stats
+- Testimonials
 
 ## Install package
 

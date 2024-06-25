@@ -21,6 +21,7 @@ This library consist of daisyui tailwind components that can be reused in any An
 - modal
 - navbar
 - stats
+- Testimonials
 
 ## Install package
 
