@@ -6,10 +6,6 @@ This library consist of daisyui tailwind components that can be reused in any An
 
 Run `npm i --save @platfrmr/ui-components@latest` to install the latest package.
 
-## Make sure to setup tailwind in angular app
-
-Add `content: [ "./src//*.{html,ts}"],` to tailwind.config.js and make sure tailwindcss is installed as a save-dev
-
 ## Import styles to global css file of angular app
 
 Add `@import "../node_modules/@platfrmr/ui-components/assets/styles.css";` inside the global styles.css file
