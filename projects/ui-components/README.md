@@ -1,6 +1,6 @@
 # @platfrmr/ui-components
 
-This library consist of tailwind components that can be reused in any Angular v18+ project.
+This library consist of daisyui tailwind components that can be reused in any Angular v18+ project.
 
 ## Install package
 
@@ -12,7 +12,7 @@ Add `content: [ "./src//*.{html,ts}"],` to tailwind.config.js and make sure tail
 
 ## Import styles to global css file of angular app
 
-Add `@import '@platfrmr/ui-components/src/lib/styles.css` inside styles.css file
+Add `@import "../node_modules/@platfrmr/ui-components/assets/styles.css";` inside the global styles.css file
 
 ## Import Module to any component you want to use it in
 
