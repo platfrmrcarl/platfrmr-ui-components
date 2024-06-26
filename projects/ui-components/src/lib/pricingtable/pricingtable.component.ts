@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'lib-pricingtable',
+  selector: 'uic-pricingtable',
   standalone: true,
   imports: [],
   templateUrl: './pricingtable.component.html',
