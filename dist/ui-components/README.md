@@ -37,7 +37,7 @@ Add import to any module or component `import { HeroModule} from '@platfrmr/ui-c
 
 ## Call component using the selector inside the component
 
-Add `<uic-hero title="Your title goes here!" description="Your descriptoin goes here!" secondHeader="Second header goes here this is above the title." CTALink="/getstarted" CTAText="Get Started" CTA2Link="/signupworkshop" CTA2Text="Sign Up!"></uic-hero>`
+Add `<uic-hero title="Your title goes here!" description="Your descripiton goes here!" secondHeader="Second header goes here this is above the title." CTALink="/getstarted" CTAText="Get Started" CTA2Link="/signupworkshop" CTA2Text="Sign Up!"></uic-hero>`
 
 ## Test the component inside the app app
 
