@@ -50,6 +50,8 @@ export { NavbarComponent } from './lib/navbar/navbar.component';
 export * from './lib/navbar/navbar.module';
 export { NewsletterComponent } from './lib/newsletter/newsletter.component';
 export * from './lib/newsletter/newsletter.module';
+export { OnboardingComponent } from './lib/onboarding/onboarding.component';
+export * from './lib/onboarding/onboarding.module';
 export { StatsComponent } from './lib/stats/stats.component';
 export * from './lib/stats/stats.module';
 export { TestimonialsComponent } from './lib/testimonials/testimonials.component';
