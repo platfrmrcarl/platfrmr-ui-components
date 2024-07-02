@@ -16,6 +16,8 @@ export { ChatbubbleComponent } from './lib/chatbubble/chatbubble.component';
 export * from './lib/chatbubble/chatbubble.module';
 export { CheckboxComponent } from './lib/checkbox/checkbox.component';
 export * from './lib/checkbox/checkbox.module';
+export { ConnectComponent } from './lib/connect/connect.component';
+export * from './lib/connect/connect.module';
 export { CountdownComponent } from './lib/countdown/countdown.component';
 export * from './lib/countdown/countdown.module';
 export { EmptystateComponent } from './lib/emptystate/emptystate.component';
