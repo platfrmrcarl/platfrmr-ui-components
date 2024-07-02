@@ -5674,6 +5674,11 @@ html {
     color: rgb(156 163 175 / var(--tw-text-opacity));
   }
 
+  .dark\:text-neutral {
+    --tw-text-opacity: 1;
+    color: var(--fallback-n,oklch(var(--n)/var(--tw-text-opacity)));
+  }
+
   .dark\:text-primary {
     --tw-text-opacity: 1;
     color: var(--fallback-p,oklch(var(--p)/var(--tw-text-opacity)));
