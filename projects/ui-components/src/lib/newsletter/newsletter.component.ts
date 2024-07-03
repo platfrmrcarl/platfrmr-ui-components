@@ -5,10 +5,11 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './newsletter.component.html',
-  styleUrl: './newsletter.component.css'
+  styleUrl: './newsletter.component.css',
 })
 export class NewsletterComponent {
   @Input() title: string = '';
+  @Input() subtitle: string = '';
   @Input() description: string = '';
   @Input() footer_description: string = '';
 }
