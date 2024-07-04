@@ -6,13 +6,17 @@
     ></div>
     <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
       <div class="text-center">
-        <h1 class="text-4xl font-bold tracking-tight text-primary sm:text-6xl">
-          {{ title }}
-        </h1>
-        <h2 class="text-2xl tracking-tight text-base-100 sm:text-3xl">
-          {{ subtitle }}
-        </h2>
-        <p class="mt-6 text-lg leading-8 text-gray-600">{{ description }}</p>
+        <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
+          <h2
+            class="mb-4 text-4xl tracking-tight font-extrabold text-primary dark:text-white"
+          >
+            {{ title }}
+          </h2>
+          <p class="mb-5 text-base-100 sm:text-xl dark:text-neutral">
+            {{ subtitle }}
+          </p>
+        </div>
+        <p class="mt-6 text-lg leading-8 text-base-100">{{ description }}</p>
         <div class="mt-10 flex items-center justify-center gap-x-6">
           <form method="post" action="/subscribe">
             <div data-style="clean" class="flex items-end mb-3">
