@@ -9,7 +9,7 @@ import { Component, Input } from '@angular/core';
   styleUrl: './stats.component.css',
 })
 export class StatsComponent {
-  @Input() class: string = '';
+  @Input() bgColor: string = '';
   @Input() title: string = '';
   @Input() description: string = '';
   @Input() stats_1_title: string = '';

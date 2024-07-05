@@ -3361,6 +3361,13 @@ html {
   margin-bottom: 0.75rem;
 }
 
+.menu {
+  --tw-bg-opacity: 1;
+  background-color: var(--fallback-b1,oklch(var(--b1)/var(--tw-bg-opacity)));
+  --tw-text-opacity: 1;
+  color: var(--fallback-p,oklch(var(--p)/var(--tw-text-opacity)));
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -4994,6 +5001,11 @@ html {
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
+.hover\:text-primary:hover {
+  --tw-text-opacity: 1;
+  color: var(--fallback-p,oklch(var(--p)/var(--tw-text-opacity)));
+}
+
 .hover\:opacity-75:hover {
   opacity: 0.75;
 }
@@ -5357,11 +5369,6 @@ html {
 
   .md\:p-5 {
     padding: 1.25rem;
-  }
-
-  .md\:text-primary {
-    --tw-text-opacity: 1;
-    color: var(--fallback-p,oklch(var(--p)/var(--tw-text-opacity)));
   }
 
   .md\:hover\:bg-base-100:hover {
