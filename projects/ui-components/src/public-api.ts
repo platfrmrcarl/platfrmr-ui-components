@@ -38,6 +38,8 @@ export { IndicatorComponent } from './lib/indicator/indicator.component';
 export * from './lib/indicator/indicator.module';
 export { InputgroupComponent } from './lib/inputgroup/inputgroup.component';
 export * from './lib/inputgroup/inputgroup.module';
+export { ListgroupComponent } from './lib/listgroup/listgroup.component';
+export * from './lib/listgroup/listgroup.module';
 export { LoadingComponent } from './lib/loading/loading.component';
 export * from './lib/loading/loading.module';
 export { LogocloudComponent } from './lib/logocloud/logocloud.component';
