@@ -10,6 +10,8 @@ import { Component, Input } from '@angular/core';
 })
 export class StatsComponent {
   @Input() bgColor: string = '';
+  @Input() stats_title_color: string = '';
+  @Input() stats_desc_color: string = '';
   @Input() title: string = '';
   @Input() description: string = '';
   @Input() stats_1_title: string = '';

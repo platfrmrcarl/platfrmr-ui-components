@@ -2,50 +2,64 @@
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl lg:max-w-none">
       <div class="text-center space-y-4">
-        <h1 class="text-3xl font-bold tracking-tight text-primary sm:text-4xl">
+        <h1
+          class="text-3xl font-bold tracking-tight {{
+            stats_title_color
+          }} sm:text-4xl"
+        >
           {{ title }}
         </h1>
-        <p class="text-lg leading-8 text-neutral">{{ description }}</p>
+        <p class="text-lg leading-8 {{ stats_desc_color }}">
+          {{ description }}
+        </p>
       </div>
       <dl
         class="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4"
       >
         <div class="flex flex-col bg-white/5 p-8">
-          <dt class="text-sm font-semibold leading-6 text-neutral">
+          <dt class="text-sm font-semibold leading-6 {{ stats_title_color }}">
             {{ stats_1_title }}
           </dt>
           <dd
-            class="order-first text-3xl font-semibold tracking-tight text-primary"
+            class="order-first text-3xl font-semibold tracking-tight {{
+              stats_title_color
+            }}"
           >
             {{ stats_1_value }}
           </dd>
         </div>
         <div class="flex flex-col bg-white/5 p-8">
-          <dt class="text-sm font-semibold leading-6 text-neutral">
+          <dt class="text-sm font-semibold leading-6 {{ stats_desc_color }}">
             {{ stats_2_title }}
           </dt>
           <dd
-            class="order-first text-3xl font-semibold tracking-tight text-primary"
+            class="order-first text-3xl font-semibold tracking-tight {{
+              stats_title_color
+            }}"
           >
             {{ stats_2_value }}
           </dd>
         </div>
         <div class="flex flex-col bg-white/5 p-8">
-          <dt class="text-sm font-semibold leading-6 text-neutral">
+          <dt class="text-sm font-semibold leading-6 {{ stats_desc_color }}">
             {{ stats_3_title }}
           </dt>
           <dd
-            class="order-first text-3xl font-semibold tracking-tight text-primary"
+            class="order-first text-3xl font-semibold tracking-tight {{
+              stats_title_color
+            }}"
           >
             {{ stats_3_value }}
           </dd>
         </div>
         <div class="flex flex-col bg-white/5 p-8">
-          <dt class="text-sm font-semibold leading-6 text-neutral">
+          <dt class="text-sm font-semibold leading-6 {{ stats_desc_color }}">
             {{ stats_4_title }}
           </dt>
           <dd
-            class="order-first text-3xl font-semibold tracking-tight text-primary"
+            class="order-first text-3xl font-semibold tracking-tight {{
+              stats_title_color
+            }}"
           >
             {{ stats_4_value }}
           </dd>
