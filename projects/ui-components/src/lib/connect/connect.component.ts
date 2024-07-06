@@ -1,13 +1,15 @@
+import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'uic-connect',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './connect.component.html',
   styleUrl: './connect.component.css',
 })
 export class ConnectComponent {
+  @Input() bgColor: string = '';
   @Input() title: string = '';
   @Input() lnk1: string = '';
   @Input() lnk2: string = '';

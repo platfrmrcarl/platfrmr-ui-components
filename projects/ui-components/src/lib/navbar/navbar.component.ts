@@ -1,13 +1,15 @@
+import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'uic-navbar',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './navbar.component.html',
-  styleUrl: './navbar.component.css'
+  styleUrl: './navbar.component.css',
 })
 export class NavbarComponent {
+  @Input() bgColor: string = '';
   @Input() logo: string = '';
   @Input() title: string = '';
   @Input() lnk1: string = '';

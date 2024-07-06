@@ -3,11 +3,12 @@
 @tailwind utilities;
 
 @layer components {
-  .menu-item:active {
-    @apply bg-base-100 text-primary;
+  .section {
+    @apply min-h-full;
   }
 
-  .menu {
-    @apply bg-base-100 text-primary;
+  .navbar .nav-link.active {
+    @apply bg-base-100;
+    @apply text-primary;
   }
 }

@@ -8,6 +8,7 @@ import { Component, Input } from '@angular/core';
   styleUrl: './newsletter.component.css',
 })
 export class NewsletterComponent {
+  @Input() bgColor: string = '';
   @Input() title: string = '';
   @Input() subtitle: string = '';
   @Input() description: string = '';

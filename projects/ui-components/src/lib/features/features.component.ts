@@ -1,16 +1,16 @@
+import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'uic-features',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './features.component.html',
-  styleUrl: './features.component.css'
+  styleUrl: './features.component.css',
 })
 export class FeaturesComponent {
-
-  constructor(){}
-
+  constructor() {}
+  @Input() bgColor: string = '';
   @Input() subtitle: string = '';
   @Input() title: string = '';
   @Input() description: string = '';

@@ -1,13 +1,15 @@
+import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'uic-pricingtable',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './pricingtable.component.html',
-  styleUrl: './pricingtable.component.css'
+  styleUrl: './pricingtable.component.css',
 })
 export class PricingtableComponent {
+  @Input() bgColor: string = '';
   @Input() title: string = '';
   @Input() description: string = '';
   @Input() subscription_plan_name_1: string = '';
