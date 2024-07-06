@@ -52,5 +52,7 @@ export { OnboardingComponent } from './lib/onboarding/onboarding.component';
 export * from './lib/onboarding/onboarding.module';
 export { StatsComponent } from './lib/stats/stats.component';
 export * from './lib/stats/stats.module';
+export { StripeCheckoutComponent } from './lib/stripe-checkout/stripe-checkout.component';
+export * from './lib/stripe-checkout/stripe-checkout.module';
 export { TestimonialsComponent } from './lib/testimonials/testimonials.component';
 export * from './lib/testimonials/testimonials.module';

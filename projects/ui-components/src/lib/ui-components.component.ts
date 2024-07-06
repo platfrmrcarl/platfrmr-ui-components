@@ -4,13 +4,7 @@ import { Component } from '@angular/core';
   selector: 'lib-ui-components',
   standalone: true,
   imports: [],
-  template: `
-    <p>
-      ui-components works!
-    </p>
-  `,
-  styles: ``
+  template: ` <p>ui-components works!</p> `,
+  styles: ``,
 })
-export class UiComponentsComponent {
-
-}
+export class UiComponentsComponent {}
