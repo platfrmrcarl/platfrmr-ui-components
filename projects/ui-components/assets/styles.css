@@ -5300,11 +5300,6 @@ input.tab:checked + .tab-content,
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
-.hover\:text-primary:hover {
-  --tw-text-opacity: 1;
-  color: var(--fallback-p,oklch(var(--p)/var(--tw-text-opacity)));
-}
-
 .hover\:opacity-75:hover {
   opacity: 0.75;
 }
@@ -5415,11 +5410,6 @@ input.tab:checked + .tab-content,
 .active\:bg-slate-400:active {
   --tw-bg-opacity: 1;
   background-color: rgb(148 163 184 / var(--tw-bg-opacity));
-}
-
-.active\:text-primary:active {
-  --tw-text-opacity: 1;
-  color: var(--fallback-p,oklch(var(--p)/var(--tw-text-opacity)));
 }
 
 .active\:text-white:active {
@@ -5670,17 +5660,16 @@ input.tab:checked + .tab-content,
     background-color: var(--fallback-b1,oklch(var(--b1)/var(--tw-bg-opacity)));
   }
 
+  .md\:bg-transparent {
+    background-color: transparent;
+  }
+
   .md\:p-0 {
     padding: 0px;
   }
 
   .md\:p-5 {
     padding: 1.25rem;
-  }
-
-  .md\:hover\:bg-base-100:hover {
-    --tw-bg-opacity: 1;
-    background-color: var(--fallback-b1,oklch(var(--b1)/var(--tw-bg-opacity)));
   }
 
   .md\:hover\:bg-transparent:hover {
@@ -5811,14 +5800,14 @@ input.tab:checked + .tab-content,
     border-color: rgb(75 85 99 / var(--tw-divide-opacity));
   }
 
-  .dark\:border-base-100 {
-    --tw-border-opacity: 1;
-    border-color: var(--fallback-b1,oklch(var(--b1)/var(--tw-border-opacity)));
-  }
-
   .dark\:border-gray-600 {
     --tw-border-opacity: 1;
     border-color: rgb(75 85 99 / var(--tw-border-opacity));
+  }
+
+  .dark\:border-gray-700 {
+    --tw-border-opacity: 1;
+    border-color: rgb(55 65 81 / var(--tw-border-opacity));
   }
 
   .dark\:border-gray-800 {
@@ -6039,14 +6028,9 @@ input.tab:checked + .tab-content,
 
 @media (min-width: 768px) {
   @media (prefers-color-scheme: dark) {
-    .md\:dark\:bg-base-100 {
+    .md\:dark\:bg-gray-900 {
       --tw-bg-opacity: 1;
-      background-color: var(--fallback-b1,oklch(var(--b1)/var(--tw-bg-opacity)));
-    }
-
-    .md\:dark\:text-primary {
-      --tw-text-opacity: 1;
-      color: var(--fallback-p,oklch(var(--p)/var(--tw-text-opacity)));
+      background-color: rgb(17 24 39 / var(--tw-bg-opacity));
     }
 
     .md\:dark\:hover\:bg-transparent:hover {

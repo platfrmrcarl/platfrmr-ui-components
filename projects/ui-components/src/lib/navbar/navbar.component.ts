@@ -16,8 +16,10 @@ export class NavbarComponent {
   @Input() lnk2: string = '';
   @Input() lnk3: string = '';
   @Input() lnk4: string = '';
+  @Input() lnk5: string = '';
   @Input() lnk_txt_1: string = '';
   @Input() lnk_txt_2: string = '';
   @Input() lnk_txt_3: string = '';
   @Input() lnk_txt_4: string = '';
+  @Input() lnk_txt_5: string = '';
 }

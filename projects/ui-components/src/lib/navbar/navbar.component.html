@@ -1,31 +1,27 @@
-<!-- top navigation bar for when you're viewing on a large screen-->
 <nav
-  class="{{
-    bgColor
-  }} dark:bg-base-100 fixed w-full z-20 top-0 start-0 border-b border-base-100 dark:border-base-100 hidden lg:block"
+  class="bg-base-100 dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-base-100 dark:border-gray-600 hidden lg:block"
 >
   <div
     class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
   >
-    <a href="/" class="flex items-center">
-      <img [src]="logo" alt="logo" width="48" height="48" />
-      <h1
-        class="text-primary self-center text-xl font-extrabold whitespace-nowrap"
+    <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+      <img src="{{ logo }}" class="h-8" alt="{{ title }} Logo" />
+      <span
+        class="self-center text-2xl text-primary font-semibold whitespace-nowrap dark:text-primary"
+        >{{ title }}</span
       >
-        {{ title }}
-      </h1>
     </a>
     <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
       <a
         href="/signin"
-        class="text-neutral bg-primary hover:bg-bprimary focus:ring-4 focus:outline-none focus:ring-primary font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-primary dark:hover:bg-primary dark:focus:ring-primary"
+        class="text-neutral bg-primary hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-blue-800"
       >
         Sign In
       </a>
       <button
         data-collapse-toggle="navbar-sticky"
         type="button"
-        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-primary rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-base-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
         aria-controls="navbar-sticky"
         aria-expanded="false"
       >
@@ -48,48 +44,46 @@
       </button>
     </div>
     <div
-      class="bg-base-100 justify-between hidden w-full md:flex md:w-auto md:order-1 navbar"
+      class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
       id="navbar-sticky"
     >
       <ul
-        id="nav-menu"
-        class="navbar-nav active flex flex-col p-4 md:p-0 mt-4 font-medium border border-base-100 rounded-lg bg-base-100 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-base-100 dark:bg-base-100 md:dark:bg-base-100 dark:border-base-100"
+        class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-base-100 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
       >
-        <li class="nav-item">
-          <a
-            href="/#Home"
-            class="nav-link bg-base-100 block hover:text-primary hover:bg-base-100 py-2 px-3 text-neutral bg-base-100 active:text-primary rounded md:bg-base-100 md:p-0 md:dark:text-primary"
-            aria-current="page"
-            >Home</a
-          >
-        </li>
-        <li class="nav-item">
+        <li>
           <a
             href="{{ lnk1 }}"
-            class="nav-link bg-base-100 block hover:text-primary hover:bg-base-100 py-2 px-3 text-neutral rounded active:text-primary hover:bg-base-100 md:hover:bg-base-100 md:hover:text-primary md:p-0 md:dark:hover:text-primary dark:text-primary dark:hover:bg-base-100 dark:hover:text-primary md:dark:hover:bg-transparent dark:border-base-100"
+            class="block py-2 px-3 text-neutral bg-base-100 rounded md:bg-transparent md:text-primary-700 md:p-0 md:dark:text-primary-500"
+            aria-current="page"
             >{{ lnk_txt_1 }}</a
           >
         </li>
-        <li class="nav-item">
+        <li>
           <a
             href="{{ lnk2 }}"
-            class="nav-link bg-base-100 block hover:text-primary hover:bg-base-100 py-2 px-3 text-neutral rounded active:text-primary hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary md:p-0 md:dark:hover:text-primary dark:text-primary dark:hover:bg-base-100 dark:hover:text-primary md:dark:hover:bg-transparent dark:border-base-100"
+            class="block py-2 px-3 text-neutral rounded hover:bg-base-100 md:hover:bg-transparent md:hover:text-primary md:p-0 md:dark:hover:text-primary dark:text-neutral dark:hover:bg-base-100 dark:hover:text-primary md:dark:hover:bg-transparent dark:border-gray-700"
             >{{ lnk_txt_2 }}</a
           >
         </li>
-        <li class="nav-item">
+        <li>
           <a
             href="{{ lnk3 }}"
-            class="nav-link bg-base-100 block hover:text-primary hover:bg-base-100 py-2 px-3 text-neutral rounded active:text-primary hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary md:p-0 md:dark:hover:text-primary dark:text-primary dark:hover:bg-base-100 dark:hover:text-primary md:dark:hover:bg-transparent dark:border-base-100"
-          >
-            {{ lnk_txt_3 }}</a
+            class="block py-2 px-3 text-neutral rounded hover:bg-base-100 md:hover:bg-transparent md:hover:text-primary md:p-0 md:dark:hover:text-primary dark:text-neutral dark:hover:bg-base-100 dark:hover:text-primary md:dark:hover:bg-transparent dark:border-gray-700"
+            >{{ lnk_txt_3 }}</a
           >
         </li>
-        <li class="nav-item">
+        <li>
           <a
             href="{{ lnk4 }}"
-            class="nav-link bg-base-100 block hover:text-primary hover:bg-base-100 py-2 px-3 text-neutral rounded active:text-primary hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary md:p-0 md:dark:hover:text-primary dark:text-primary dark:hover:bg-base-100 dark:hover:text-primary md:dark:hover:bg-transparent dark:border-base-100"
+            class="block py-2 px-3 text-neutral rounded hover:bg-base-100 md:hover:bg-transparent md:hover:text-primary md:p-0 md:dark:hover:text-primary dark:text-neutral dark:hover:bg-base-100 dark:hover:text-primary md:dark:hover:bg-transparent dark:border-gray-700"
             >{{ lnk_txt_4 }}</a
+          >
+        </li>
+        <li>
+          <a
+            href="{{ lnk5 }}"
+            class="block py-2 px-3 text-neutral rounded hover:bg-base-100 md:hover:bg-transparent md:hover:text-primary md:p-0 md:dark:hover:text-primary dark:text-neutral dark:hover:bg-base-100 dark:hover:text-primary md:dark:hover:bg-transparent dark:border-gray-700"
+            >{{ lnk_txt_5 }}</a
           >
         </li>
       </ul>
@@ -102,8 +96,8 @@
   class="fixed bottom-0 left-0 z-50 w-full h-16 border-t lg:hidden bg-base-100 text-primary border-base-100 dark:bg-base-100 dark:border-priary"
 >
   <div class="grid h-full max-w-lg grid-cols-4 mx-auto font-medium">
-    <button
-      type="button"
+    <a
+      href="dashboard"
       class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group"
     >
       <svg
@@ -121,9 +115,9 @@
         class="text-sm text-primary dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
         >Home</span
       >
-    </button>
-    <button
-      type="button"
+    </a>
+    <a
+      href=""
       class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group"
     >
       <svg
@@ -144,7 +138,7 @@
         class="text-sm text-primary dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
         >Search</span
       >
-    </button>
+    </a>
     <button
       type="button"
       class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group"
