@@ -22,4 +22,6 @@ export class NavbarComponent {
   @Input() lnk_txt_3: string = '';
   @Input() lnk_txt_4: string = '';
   @Input() lnk_txt_5: string = '';
+  @Input() profile_pic: string = '';
+  @Input() isAuthenticated?: boolean = false;
 }
