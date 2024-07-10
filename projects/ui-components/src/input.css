@@ -12,3 +12,9 @@
     @apply text-primary;
   }
 }
+
+.my-logo {
+  width: 50%;
+  height: auto;
+  aspect-ratio: 500 / 500;
+}

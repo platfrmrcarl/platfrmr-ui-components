@@ -40,6 +40,8 @@ export { LoadingComponent } from './lib/loading/loading.component';
 export * from './lib/loading/loading.module';
 export { LogocloudComponent } from './lib/logocloud/logocloud.component';
 export * from './lib/logocloud/logocloud.module';
+export { LoginFormComponent } from './lib/loginForm/loginForm.component';
+export * from './lib/loginForm/loginForm.module';
 export { PricingtableComponent } from './lib/pricingtable/pricingtable.component';
 export * from './lib/pricingtable/pricingtable.module';
 export { ModalComponent } from './lib/modal/modal.component';

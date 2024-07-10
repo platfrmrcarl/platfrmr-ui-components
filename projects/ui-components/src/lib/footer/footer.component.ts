@@ -11,7 +11,7 @@ import { Component, Input } from '@angular/core';
 export class FooterComponent {
   @Input() bgColor: string = '';
   @Input() logo: string = '';
-  @Input() title: string = '';
+  @Input() appName: string = '';
   @Input() lnk1: string = '';
   @Input() lnk2: string = '';
   @Input() lnk3: string = '';
@@ -19,4 +19,8 @@ export class FooterComponent {
   @Input() lnk5: string = '';
   @Input() lnk6: string = '';
   @Input() fillColor: string = '';
+
+  ngOnInit() {
+    this.appName = this.appName + '  ©' + new Date().getFullYear().toString();
+  }
 }
