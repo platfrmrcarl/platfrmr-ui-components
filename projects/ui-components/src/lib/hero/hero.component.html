@@ -18,7 +18,13 @@
       <p class="mt-6 text-lg leading-8 text-gray-600">{{ description }}</p>
       <div class="relative mx-auto mt-2 pt-2">
         <div class="lg:max-w-4xl lg:mx-auto">
-          <img class="px-4 md:mpx-8" src="{{ imgSrc }}" />
+          <img
+            src="{{ imgSrc }}"
+            width="{{imgSrc_w}}"
+            height="{{imgSrc_h}}"
+            alt="Hero of landing page"
+            loading="eager"
+          />
         </div>
       </div>
       <div class="mt-10 flex items-center justify-center gap-x-6">
@@ -26,11 +32,6 @@
           href="{{ CTA1Link }}"
           class="rounded-md bg-primary px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
           >{{ CTA1 }}</a
-        >
-        <a
-          href="#portfolio"
-          class="text-sm font-semibold leading-6 text-primary"
-          >Learn more</a
         >
       </div>
     </div>

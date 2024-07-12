@@ -1,17 +1,22 @@
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 import { Component, Input } from '@angular/core';
+import { NgOptimizedImage } from '@angular/common';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'uic-navbar',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, NgOptimizedImage, RouterLink],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.css',
 })
 export class NavbarComponent {
   @Input() bgColor: string = '';
-  @Input() logo: string = '';
-  @Input() title: string = '';
+  @Input() imgSrc: string = '';
+  @Input() imgSrc_w: number = 0;
+  @Input() imgSrc_h: number = 0;
+  @Input() appName: string = '';
   @Input() lnk1: string = '';
   @Input() lnk2: string = '';
   @Input() lnk3: string = '';
@@ -24,4 +29,6 @@ export class NavbarComponent {
   @Input() lnk_txt_5: string = '';
   @Input() profile_pic: string = '';
   @Input() isAuthenticated?: boolean = false;
+
+  ngOnInit() {}
 }

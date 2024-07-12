@@ -2,16 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .section {
-    @apply min-h-full;
-  }
 
-  .navbar .nav-link.active {
-    @apply bg-base-100;
-    @apply text-primary;
-  }
-}
 
 .my-logo {
   width: 50%;

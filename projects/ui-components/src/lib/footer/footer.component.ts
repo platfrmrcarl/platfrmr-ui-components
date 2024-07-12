@@ -1,16 +1,18 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
-
+import { NgOptimizedImage } from '@angular/common';
 @Component({
   selector: 'uic-footer',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, NgOptimizedImage],
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.css',
 })
 export class FooterComponent {
   @Input() bgColor: string = '';
-  @Input() logo: string = '';
+  @Input() imgSrc: string = '';
+  @Input() imgSrc_w:number = 0;
+  @Input() imgSrc_h:number = 0;
   @Input() appName: string = '';
   @Input() lnk1: string = '';
   @Input() lnk2: string = '';
