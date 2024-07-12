@@ -5,7 +5,6 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './newsletter.component.html',
-  styleUrl: './newsletter.component.css',
 })
 export class NewsletterComponent {
   @Input() bgColor: string = '';

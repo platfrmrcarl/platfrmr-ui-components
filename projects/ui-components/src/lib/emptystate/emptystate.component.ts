@@ -5,7 +5,6 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './emptystate.component.html',
-  styleUrl: './emptystate.component.css'
 })
 export class EmptystateComponent {
   @Input() title: string = '';

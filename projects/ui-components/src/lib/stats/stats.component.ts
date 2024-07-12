@@ -6,7 +6,6 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './stats.component.html',
-  styleUrl: './stats.component.css',
 })
 export class StatsComponent {
   @Input() bgColor: string = '';

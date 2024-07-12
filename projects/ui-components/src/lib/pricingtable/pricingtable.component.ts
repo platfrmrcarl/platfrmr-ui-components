@@ -6,7 +6,6 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './pricingtable.component.html',
-  styleUrl: './pricingtable.component.css',
 })
 export class PricingtableComponent {
   @Input() bgColor: string = '';

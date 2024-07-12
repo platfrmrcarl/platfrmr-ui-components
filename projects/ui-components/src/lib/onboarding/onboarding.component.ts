@@ -6,7 +6,6 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './onboarding.component.html',
-  styleUrl: './onboarding.component.css',
 })
 export class OnboardingComponent {
   @Input() bgColor: string = '';

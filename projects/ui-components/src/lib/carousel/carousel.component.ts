@@ -5,7 +5,6 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './carousel.component.html',
-  styleUrl: './carousel.component.css'
 })
 export class CarouselComponent {
   @Input() img_src_1: string = '';

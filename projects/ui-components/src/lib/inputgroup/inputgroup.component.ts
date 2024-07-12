@@ -5,7 +5,6 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './inputgroup.component.html',
-  styleUrl: './inputgroup.component.css'
 })
 export class InputgroupComponent {
 

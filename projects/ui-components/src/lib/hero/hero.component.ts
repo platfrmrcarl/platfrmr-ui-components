@@ -6,7 +6,6 @@ import { NgOptimizedImage } from '@angular/common'
   standalone: true,
   imports: [CommonModule, NgOptimizedImage],
   templateUrl: './hero.component.html',
-  styleUrl: './hero.component.css',
 })
 export class HeroComponent {
   @Input() bgColor: string = '';

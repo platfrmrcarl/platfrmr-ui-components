@@ -5,8 +5,5 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './stripe-checkout.component.html',
-  styleUrl: './stripe-checkout.component.css'
 })
-export class StripeCheckoutComponent {
-
-}
+export class StripeCheckoutComponent {}

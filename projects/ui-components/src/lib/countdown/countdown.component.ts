@@ -5,7 +5,6 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './countdown.component.html',
-  styleUrl: './countdown.component.css'
 })
 export class CountdownComponent {
 

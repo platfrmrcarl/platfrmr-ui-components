@@ -5,7 +5,6 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './indicator.component.html',
-  styleUrl: './indicator.component.css'
 })
 export class IndicatorComponent {
 

@@ -8,7 +8,6 @@ import { LoginFormService } from './login-form-service';
   standalone: true,
   imports: [CommonModule, CoolGoogleButtonComponent, ReactiveFormsModule],
   templateUrl: './loginForm.component.html',
-  styleUrl: './loginForm.component.css',
 })
 export class LoginFormComponent {
   constructor(private readonly loginFormService: LoginFormService) {}

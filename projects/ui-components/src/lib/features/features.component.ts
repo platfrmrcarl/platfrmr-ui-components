@@ -6,7 +6,6 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './features.component.html',
-  styleUrl: './features.component.css',
 })
 export class FeaturesComponent {
   constructor() {}

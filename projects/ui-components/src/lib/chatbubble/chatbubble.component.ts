@@ -5,7 +5,6 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './chatbubble.component.html',
-  styleUrl: './chatbubble.component.css'
 })
 export class ChatbubbleComponent {
 

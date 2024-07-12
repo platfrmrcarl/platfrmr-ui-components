@@ -5,7 +5,6 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './fileinput.component.html',
-  styleUrl: './fileinput.component.css'
 })
 export class FileinputComponent {
 

@@ -6,7 +6,6 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './logocloud.component.html',
-  styleUrl: './logocloud.component.css',
 })
 export class LogocloudComponent {
   @Input() bgColor: string = '';

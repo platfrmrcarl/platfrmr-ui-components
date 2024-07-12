@@ -6,7 +6,6 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './connect.component.html',
-  styleUrl: './connect.component.css',
 })
 export class ConnectComponent {
   @Input() bgColor: string = '';
