@@ -1,10 +1,19 @@
 {
   "name": "@platfrmr/ui-components",
-  "version": "0.5.550",
+  "version": "0.5.588",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/platfrmrcarl/platfrmr-ui-components.git"
+  },
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "npm run build:css && npm version patch && cd ../../ && ng build --configuration production && npm run deploy",
+    "build:css": "npx tailwindcss -i ./src/input.css -o ./src/assets/styles.css --minify",
+    "deploy": "cd ../../dist/ui-components && npm publish --access public",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
   },
   "peerDependencies": {
     "@angular/common": "^18.0.0",
@@ -15,9 +24,11 @@
   },
   "sideEffects": false,
   "devDependencies": {
+    "@fontsource/roboto": "^5.0.13",
     "autoprefixer": "^10.4.19",
-    "daisyui": "^4.12.2",
-    "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.4"
+    "daisyui": "^4.12.10",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4",
+    "typography": "^0.16.24"
   }
 }
