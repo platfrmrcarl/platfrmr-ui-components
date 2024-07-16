@@ -26,13 +26,13 @@ export { CountdownComponent } from './lib/countdown/countdown.component';
 
 export { EmptystateComponent } from './lib/emptystate/emptystate.component';
 
-export { FeaturesComponent } from './lib/features/features.component';
+export { FeaturesComponent } from './lib/landingpageUI/features/features.component';
 
 export { FileinputComponent } from './lib/fileinput/fileinput.component';
 
-export { FooterComponent } from './lib/footer/footer.component';
+export { FooterComponent } from './lib/navigation/footer/footer.component';
 
-export { HeroComponent } from './lib/hero/hero.component';
+export { HeroComponent } from './lib/landingpageUI/hero/hero.component';
 
 export { IndicatorComponent } from './lib/indicator/indicator.component';
 
@@ -42,22 +42,24 @@ export { ListgroupComponent } from './lib/listgroup/listgroup.component';
 
 export { LoadingComponent } from './lib/loading/loading.component';
 
-export { LogocloudComponent } from './lib/logocloud/logocloud.component';
+export { LogocloudComponent } from './lib/landingpageUI/logocloud/logocloud.component';
 
-export { LoginFormComponent } from './lib/loginForm/loginForm.component';
-export { PricingtableComponent } from './lib/pricingtable/pricingtable.component';
+export { LoginFormComponent } from './lib/forms/loginForm/loginForm.component';
+
+export { PricingtableComponent } from './lib/landingpageUI/pricingtable/pricingtable.component';
+
+export { RegisterFormComponent } from './lib/forms/register-form/register-form.component';
 
 export { ModalComponent } from './lib/modal/modal.component';
 
-export { NavbarComponent } from './lib/navbar/navbar.component';
+export { NavbarComponent } from './lib/navigation/navbar/navbar.component';
 
-export { NewsletterComponent } from './lib/newsletter/newsletter.component';
+export { NewsletterComponent } from './lib/landingpageUI/newsletter/newsletter.component';
 
 export { OnboardingComponent } from './lib/onboarding/onboarding.component';
 
-export { StatsComponent } from './lib/stats/stats.component';
+export { StatsComponent } from './lib/landingpageUI/stats/stats.component';
 
-export { StripeCheckoutComponent } from './lib/stripe-checkout/stripe-checkout.component';
+export { StripeCheckoutComponent } from './lib/forms/stripe-checkout/stripe-checkout.component';
 
 export { TestimonialsComponent } from './lib/testimonials/testimonials.component';
-

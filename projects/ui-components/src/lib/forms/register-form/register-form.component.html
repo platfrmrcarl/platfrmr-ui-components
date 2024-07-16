@@ -8,12 +8,12 @@
           class="left-0 right-0 inline-block border-gray-200 px-2 py-2.5 sm:px-4"
         >
           <form
-            [formGroup]="loginForm"
-            (submit)="submitLogin()"
+            [formGroup]="registerForm"
+            (submit)="submitRegistration()"
             class="flex flex-col gap-4 pb-4 items-center justify-center"
           >
             <h1 class="mb-4 text-2xl font-bold text-primary dark:text-white">
-              Login
+              Regiistration Form
             </h1>
             <div>
               <div class="mb-2">
@@ -53,26 +53,45 @@
                     id="password"
                     type="password"
                     formControlName="password"
-                    autocomplete="on"
+                    placeholder="ChangeMe123"
                     required
                   />
                 </div>
               </div>
-              <p class="mt-2 cursor-pointer text-blue-500 hover:text-blue-600">
-                Forgot password?
-              </p>
+            </div>
+            <div>
+              <div class="mb-2">
+                <label
+                  class="text-sm font-medium text-gray-900 dark:text-gray-300"
+                  data-testid="flowbite-label"
+                  for="confirmed_password"
+                  >Confirm Password</label
+                >
+              </div>
+              <div class="flex w-full rounded-lg pt-1">
+                <div class="relative w-full">
+                  <input
+                    class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 bg-gray-50 border-gray-300 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                    id="confirmed_password"
+                    type="password"
+                    formControlName="confirmed_password"
+                    placeholder="ChangeMe123"
+                    required
+                  />
+                </div>
+              </div>
             </div>
             <div class="flex flex-col gap-2">
               <button type="submit" class="btn btn-primary rounded-lg">
                 <span
                   class="flex items-center justify-center gap-1 font-medium py-1 px-2.5 text-base false"
                 >
-                  Login
+                  Register
                 </span>
               </button>
               <button
                 type="button"
-                class="text-white bg-[#4285F4] hover:bg-[#4285F4]/90 focus:ring-4 focus:outline-none focus:ring-[#4285F4]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#4285F4]/55 me-2 mb-2"
+                class="btn text-white bg-[#4285F4] hover:bg-[#4285F4]/90 focus:outline-none focus:ring-[#4285F4]/50 font-medium text-sm px-5 py-2.5 text-center inline-flex items-center mb-2 border-[#4285F4]"
               >
                 <svg
                   class="w-4 h-4 me-2"
@@ -87,22 +106,10 @@
                     clip-rule="evenodd"
                   />
                 </svg>
-                Sign in with Google
+                Sign up with Google
               </button>
             </div>
           </form>
-          <div class="min-w-[270px]">
-            <div
-              class="mt-4 text-center font-medium text-gray-900 dark:text-gray-300"
-            >
-              Don't have an account?
-              <a
-                class="text-blue-500 underline hover:text-blue-600"
-                href="/signup"
-                >Sign Up</a
-              >
-            </div>
-          </div>
         </div>
       </div>
     </div>
