@@ -32,6 +32,9 @@ export { FileinputComponent } from './lib/fileinput/fileinput.component';
 
 export { FooterComponent } from './lib/navigation/footer/footer.component';
 
+export { ForgotPasswordComponent } from './lib/forms/forgot-password/forgot-password.component';
+export * from './lib/forms/forgot-password/forgot-password.module';
+
 export { HeroComponent } from './lib/landingpageUI/hero/hero.component';
 
 export { IndicatorComponent } from './lib/indicator/indicator.component';
@@ -45,10 +48,12 @@ export { LoadingComponent } from './lib/loading/loading.component';
 export { LogocloudComponent } from './lib/landingpageUI/logocloud/logocloud.component';
 
 export { LoginFormComponent } from './lib/forms/loginForm/loginForm.component';
+export * from './lib/forms/loginForm/loginForm.module';
 
 export { PricingtableComponent } from './lib/landingpageUI/pricingtable/pricingtable.component';
 
-export { RegisterFormComponent } from './lib/forms/register-form/register-form.component';
+export { RegisterFormComponent } from './lib/forms/registerForm/registerForm.component';
+export * from './lib/forms/registerForm/registerForm.module';
 
 export { ModalComponent } from './lib/modal/modal.component';
 

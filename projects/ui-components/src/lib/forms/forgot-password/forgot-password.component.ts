@@ -12,6 +12,10 @@ import { ForgetPasswordService } from './forgot-password.service';
 export class ForgotPasswordComponent {
   constructor(private readonly service: ForgetPasswordService) {}
 
+  forgotPasswordForm = new FormGroup({
+    email: new FormControl(''),
+  });
+
   @Input() url: string = '';
 
   ngOnInit() {

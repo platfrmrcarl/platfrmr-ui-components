@@ -22,7 +22,7 @@ export class RegisterFormService {
     password: string,
     confirmed_password: string
   ) {
-    this.http
+    /* this.http
       .post(this.url, {
         email: email,
         password: password,
@@ -30,6 +30,6 @@ export class RegisterFormService {
       })
       .subscribe((data) => {
         console.log(data);
-      });
+      }); */
   }
 }

@@ -5,7 +5,7 @@ import { RegisterFormService } from './registerform.service';
   selector: 'uic-registerform',
   standalone: true,
   imports: [ReactiveFormsModule],
-  templateUrl: './register-form.component.html',
+  templateUrl: './registerForm.component.html',
 })
 export class RegisterFormComponent {
   constructor(private readonly service: RegisterFormService) {}

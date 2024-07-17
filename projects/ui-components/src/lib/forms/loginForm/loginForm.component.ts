@@ -19,11 +19,11 @@ export class LoginFormComponent {
   @Input() url: string = '';
 
   ngOnInit() {
-    this.url = this.url + '/auth/login';
+    this.url = this.url + '/auth';
     this.service.setURL(this.url);
   }
   onGoogleLoginClicked() {
-    console.log('We clicked it!');
+    this.service.GoogleLogin();
   }
 
   ///----------------------
